@@ -1,0 +1,78 @@
+head {
+  margin: 0;
+  padding: 0;
+}
+#exercise {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+p {
+  border-radius: 4px;
+  margin: 0px;
+  display: flex;
+  width: 100px;
+  height: 40px;
+  border: none;
+  justify-content: left;
+  align-items: center;
+  font-size: x-large;
+}
+
+#operator,
+#equal {
+  font-weight: 500;
+  font-size: xx-large;
+  border: none;
+}
+#nav-btn {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: auto;
+}
+#nav-btn button {
+  padding: 6px;
+  width: 60px;
+  margin-left: 20px;
+  background-color: chartreuse;
+  border: 1px solid red;
+  border-radius: 30px;
+}
+
+#nav-btn button:hover {
+  font-weight: bold;
+  color: red;
+}
+
+#nav-btn #restart-btn {
+  background-color: red;
+  color: white;
+}
+
+#btn-el {
+  margin-top: 17px;
+  color: rgb(107, 104, 104);
+  padding: 6px;
+  width: 100px;
+  border: 1px solid red;
+  border-radius: 30px;
+  background-color: white;
+}
+#btn-el:hover {
+  background-color: rgb(107, 104, 104);
+  color: white;
+}
+#imput-el{
+  border-radius: 4px;
+  margin: 0px;
+  display: flex;
+  width: 90px;
+  height: 40px;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+}
