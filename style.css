@@ -75,7 +75,7 @@ p {
   font-size: 1.2em;
 }
 #btn-el:hover {
-  background-color: rgb(107, 104, 104);
+  background-color: rgb(80, 77, 77);
   color: white;
 }
 #imput-el {
@@ -84,7 +84,7 @@ p {
   display: flex;
   width: 4em;
   height: 1.5em;
-  border: none;
+  border: 2px solid green;
   justify-content: center;
   align-items: center;
   font-size: 3em;
