@@ -1,53 +1,64 @@
-head {
+body {
   margin: 0;
-  padding: 0;
+  padding: 1em 3em;
 }
 #exercise {
+  padding: 2em 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   flex-wrap: wrap;
 }
+@media(min-width:600px){
+  #exercise{
+    flex-direction: row;
+    text-align: center;
+  }
+}
 p {
   border-radius: 4px;
   margin: 0px;
   display: flex;
-  width: 100px;
-  height: 40px;
+  width: 4rem;
+  height: 4rem;
   border: none;
   justify-content: left;
   align-items: center;
-  font-size: x-large;
+  font-size: 4em;
 }
 
 #operator,
 #equal {
   font-weight: 500;
-  font-size: xx-large;
+  font-size: 4em;
+  color: blue;
   border: none;
 }
 #nav-btn {
   display: flex;
   justify-content: center;
-  padding: 20px;
-  margin: auto;
+  padding: 0;
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
 #nav-btn button {
-  padding: 6px;
-  width: 60px;
-  margin-left: 20px;
+  font-size: 2em;
+  padding: 0.5rem;
+ min-width: 5rem;
+  margin: 0.5rem 1.5rem;
   background-color: chartreuse;
   border: 1px solid red;
   border-radius: 30px;
 }
 
 #nav-btn button:hover {
-  font-weight: bold;
   color: red;
 }
 
 #nav-btn #restart-btn {
+  font-size: 1em;
+  min-width: 5rem;
   background-color: red;
   color: white;
 }
@@ -56,23 +67,28 @@ p {
   margin-top: 17px;
   color: rgb(107, 104, 104);
   padding: 6px;
-  width: 100px;
+  width: 8rem;
+  height: 3rem;
   border: 1px solid red;
   border-radius: 30px;
   background-color: white;
+  font-size: 1.2em;
 }
 #btn-el:hover {
   background-color: rgb(107, 104, 104);
   color: white;
 }
-#imput-el{
+#imput-el {
   border-radius: 4px;
   margin: 0px;
   display: flex;
-  width: 90px;
-  height: 40px;
-  border: 2px solid black;
+  width: 4em;
+  height: 1.5em;
+  border: none;
   justify-content: center;
   align-items: center;
-  font-size: x-large;
+  font-size: 3em;
+}
+#resultados {
+  font-size: 2em;
 }
